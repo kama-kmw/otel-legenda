@@ -1130,6 +1130,26 @@ input[type=number]::-webkit-outer-spin-button
 	font-weight: 500;
 	color: #6d6d6d;
 	line-height: 2;
+	display: flex;
+}
+.footer_list ul li a
+{
+	border-bottom: none;
+}
+.footer_list ul li span
+{
+	margin-right: 8px;
+	font-size: 16px;
+}
+.fa-phone-color {
+	color: black;
+}
+.fa-whatsapp-color {
+	color: #0adf51;
+}
+.fa-viber-color {
+	color: #bc2a8d;
+	
 }
 .newsletter_container
 {
