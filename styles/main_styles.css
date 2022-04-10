@@ -824,6 +824,16 @@ input[type=number]::-webkit-outer-spin-button
 	padding-right: 19px;
 }
 
+.about__list {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.about__list li a {
+	font-size: 55px;
+}
+
 /*********************************
 9. Testimonials
 *********************************/
@@ -1150,6 +1160,15 @@ input[type=number]::-webkit-outer-spin-button
 .fa-viber-color {
 	color: #bc2a8d;
 }
+.fa-telegram-color {
+	color: #00aced;
+}
+
+.footer__room li a {
+	font-size: 16px;
+	color: #333;
+	font-weight: 400;
+}
 .newsletter_container
 {
 	margin-top: 8px;
@@ -1233,4 +1252,8 @@ input[type=number]::-webkit-outer-spin-button
 	font-size: 15px;
 	font-weight: 500;
 	color: #6d6d6d;
+}
+
+.copyright a {
+	color: #111;
 }
