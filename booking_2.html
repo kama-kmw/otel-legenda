@@ -14,6 +14,8 @@
 <link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/booking.css">
 <link rel="stylesheet" type="text/css" href="styles/booking_responsive.css">
+<link rel="stylesheet" href="styles/elem-show.css">
+
 </head>
 <body>
 
@@ -29,11 +31,24 @@
 					<ul class="d-flex flex-row align-items-start justify-content-start">
 						<li><a href="index.html">Главная</a></li>
 						<li><a href="about.html">О нас</a></li>
-						<li><a href="booking.html">Номера</a></li>
+						<li><a href="booking.html">Номера</a>
+							<ul class="sub-menu">
+								<li>
+										<a href="booking_2.html" class="main-menu__link">полулюкс 2-х местный</a>
+								</li>
+								<li>
+										<a href="booking_3.html" class="main-menu__link">полулюкс 3-х местный</a>
+								</li>
+								<li>
+									<a href="booking_4.html" class="main-menu__link">полулюкс 4-х местный</a>
+								</li>
+							</ul>
+						</li>
 						<li><a href="blog.html">Галерея</a></li>
-						<li><a href="contact.html">Контакты</a></li>
+						<li class="active"><a href="contact.html">Контакты</a></li>
 					</ul>
 				</nav>
+
 				<!-- <div class="book_button"><a href="booking.html">Book Online</a></div> -->
 				<div class="header_phone d-flex flex-row align-items-center justify-content-center">
 					<img src="images/phone.png" alt="">
@@ -55,7 +70,19 @@
 				<ul>
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="about.html">О нас</a></li>
-					<li><a href="booking.html">Номера</a></li>
+					<li><a href="#" class="mob-menu__show">Номера<span class="sp__arrow-d"></span></a>
+						<ul>
+							<li class="quicklinks-item">
+									<a href="booking_2.html" class="main-menu__link">полулюкс 2-х местный</a>
+							</li>
+							<li class="quicklinks-item">
+									<a href="booking_3.html" class="main-menu__link">полулюкс 3-х местный</a>
+							</li>
+							<li class="quicklinks-item">
+									<a href="booking_4.html" class="main-menu__link">полулюкс 4-х местный</a>
+							</li>
+					</ul>
+					</li>
 					<li><a href="blog.html">Галерея</a></li>
 					<li><a href="contact.html">Контакты</a></li>
 				</ul>
@@ -521,6 +548,7 @@
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="js/booking.js"></script>
+<script src="js/elem-show.js"></script>
 <script src="https://kit.fontawesome.com/f8a4f55103.js" crossorigin="anonymous"></script>
 
 </body>

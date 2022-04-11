@@ -347,7 +347,8 @@ section
 }
 .main_nav ul li:not(:last-of-type)
 {
-	margin-right: 49px;
+	margin-right: 49px; 
+	position: relative;
 }
 .main_nav ul li a
 {
@@ -360,6 +361,44 @@ section
 {
 	color: #ffa37b;
 }
+
+.sub-menu {
+  position: absolute;
+  width: 100%;
+	
+  min-width: 300px;
+  left: 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+	display: none;
+	transition: 0.5s;
+	padding-top: 20px;
+}
+
+.main_nav .sub-menu li {
+	margin-bottom: 10px;
+}
+
+.main_nav .sub-menu li a {
+	width: 100%;
+	/* display: block; */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+	padding-left: 5px;
+}
+
+
+.main_nav .sub-menu li a:hover {
+  background-color: #000;
+}
+
+.main_nav ul li:hover .sub-menu  {
+	display: block;
+	transition: 0.5s;
+}
+
 .book_button
 {
 	width: 152px;
