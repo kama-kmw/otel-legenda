@@ -367,7 +367,7 @@ section
 }
 .logo
 {
-	width: 130px;
+	padding: 0 10px;
 	height: 41px;
 	border: solid 2px #ffffff;
 	text-align: center;

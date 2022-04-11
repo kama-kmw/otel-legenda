@@ -1039,7 +1039,7 @@ input[type=number]::-webkit-outer-spin-button
 	font-size: 16px;
 }
 .fa-phone-color {
-	color: black;
+	color: #00aced;
 }
 .fa-whatsapp-color {
 	color: #0adf51;
@@ -1047,6 +1047,13 @@ input[type=number]::-webkit-outer-spin-button
 .fa-viber-color {
 	color: #bc2a8d;
 }
+
+.footer__room li a {
+	font-size: 16px;
+	color: #333;
+	font-weight: 400;
+}
+
 .newsletter_container
 {
 	margin-top: 8px;
@@ -1130,4 +1137,8 @@ input[type=number]::-webkit-outer-spin-button
 	font-size: 15px;
 	font-weight: 500;
 	color: #6d6d6d;
+}
+
+.copyright a {
+	color: #111;
 }
