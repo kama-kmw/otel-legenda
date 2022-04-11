@@ -381,8 +381,9 @@ section
 	line-height: 37px;
 }
 .main_nav ul li:not(:last-of-type)
-{
+{ 
 	margin-right: 49px;
+	position: relative;
 }
 .main_nav ul li a
 {
@@ -395,6 +396,45 @@ section
 {
 	color: #ffa37b;
 }
+
+
+.sub-menu {
+  position: absolute;
+  width: 100%;
+	
+  min-width: 300px;
+  left: 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+	display: none;
+	transition: 0.5s;
+	padding-top: 20px;
+}
+
+.main_nav .sub-menu li {
+	margin-bottom: 10px;
+}
+
+.main_nav .sub-menu li a {
+	width: 100%;
+	/* display: block; */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+	padding-left: 5px;
+}
+
+
+.main_nav .sub-menu li a:hover {
+  background-color: #000;
+}
+
+.main_nav ul li:hover .sub-menu  {
+	display: block;
+	transition: 0.5s;
+}
+
 .book_button
 {
 	width: 152px;
@@ -742,7 +782,7 @@ input[type=number]::-webkit-outer-spin-button
 .contact_content
 {
 	padding-top: 105px;
-	padding-bottom: 114px;
+	/* padding-bottom: 114px; */
 }
 .contact_list
 {
@@ -844,6 +884,7 @@ input[type=number]::-webkit-outer-spin-button
 {
 	width: calc(100% + ((100vw - 1120px) / 2));
 	height: 100%;
+	margin-top: 100px;
 }
 .map
 {
@@ -865,6 +906,10 @@ input[type=number]::-webkit-outer-spin-button
 {
 	width: 100%;
 	height: calc(100% + 30px);
+}
+
+.yandex__map {
+	margin-top: 100px;
 }
 
 /*********************************
@@ -936,7 +981,52 @@ input[type=number]::-webkit-outer-spin-button
 	font-weight: 500;
 	color: #6d6d6d;
 	line-height: 2;
+	display: flex;
 }
+
+.footer_list ul li a
+{
+	border-bottom: none;
+}
+.footer_list ul li span
+{
+	margin-right: 8px;
+	font-size: 16px;
+}
+
+.footer__room li a {
+	font-size: 16px;
+	color: #333;
+	font-weight: 400;
+}
+
+.fa-phone-color {
+	color: black;
+}
+.fa-whatsapp-color {
+	color: #0adf51;
+}
+.fa-viber-color {
+	color: #bc2a8d;
+}
+.fa-phone-color {
+	color: #00aced;
+}
+
+.contact__icon {
+	width: 100%;
+	display: flex;
+	gap: 30px;
+}
+
+.contact__icon li a {
+	font-size: 20px;
+}
+
+.footer__imail {
+	color: #333;
+}
+
 .newsletter_container
 {
 	margin-top: 8px;
@@ -1020,4 +1110,16 @@ input[type=number]::-webkit-outer-spin-button
 	font-size: 15px;
 	font-weight: 500;
 	color: #6d6d6d;
+}
+
+
+.copyright a {
+	color: #111;
+}
+
+@media (max-width: 102px) {
+	.yandex__map
+{
+	margin-top: 0;
+}
 }
