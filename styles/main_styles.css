@@ -107,7 +107,7 @@ p a:active
 	position: relative;
 	color: #FF6347;
 }
-p a:hover
+p a:hover 
 {
 	color: #FFFFFF;
 	background: #ffa07f;
@@ -386,7 +386,6 @@ section
 	/* display: block; */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
-	padding-left: 5px;
 }
 
 
