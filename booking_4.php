@@ -59,15 +59,24 @@
 							<div class="home_content text-center">
 								<div class="home_title">Забронировать номер</div>
 								<div class="booking_form_container">
-									<form action="#" class="booking_form" id="booking_form">
+									<?php include 'modules/booking_mail.php' ?>
+									<form action="" method="POST" class="booking_form" id="booking_form">
 										<div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
 											<div class="booking_input_container d-flex flex-row align-items-start justify-content-start flex-wrap">
-												<div><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Дата заезда" required="required"></div>
-												<div><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Дата выезда" required="required"></div>
-												<div><input type="number" class="booking_input booking_input_b" placeholder="Дети" required="required"></div>
-												<div><input type="number" class="booking_input booking_input_b" placeholder="Номер" required="required"></div>
+												<div><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Дата заезда" name="date_arrival" required="required"></div>
+												<div><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Дата выезда" name="date_departure" required="required"></div>
+												<div>
+													<select class="booking_input booking_input_b" name="room" id="">
+														<option disabled>Номера</option>
+														<option>2-х местный</option>
+														<option>3-х местный</option>
+														<option>4-х местный</option>
+													</select>
+												</div>
+												<!-- <div><input type="number" class="booking_input booking_input_b" placeholder="Дети" required="required"></div> -->
+												<div><input type="number" class="booking_input booking_input_b" placeholder="Телефон" name="phone" required="required"></div>
 											</div>
-											<div><button class="booking_button trans_200">Забронировать</button></div>
+											<div><button class="booking_button trans_200" name="booking_mail">Забронировать</button></div>
 										</div>
 									</form>
 								</div>
@@ -234,7 +243,7 @@
 								<li>Upper floors accessible by lift</li> -->
 								</ul>
 							</div>
-							<div class="book_now_button"><a href="#">Забронировать</a></div>
+							<div class="book_now_button"><a href="tel:+79280106646">Узнать подробнее</a></div>
 						</div>
 					</div>
 
