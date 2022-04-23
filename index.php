@@ -401,7 +401,7 @@
 
 									<div class="booking_overlay trans_200"></div>
 									<div class="booking_price">от 1000 руб.</div>
-									<div class="booking_link"><a href="booking_2.html">Полулюкс 2-х местный с балконом</a></div>
+									<div class="booking_link"><a href="booking_2.php">Полулюкс 2-х местный с балконом</a></div>
 								</div>
 
 								<!-- Slide -->
@@ -411,7 +411,7 @@
 
 									<div class="booking_overlay trans_200"></div>
 									<div class="booking_price">от 1400 руб.</div>
-									<div class="booking_link"><a href="booking_3.html">Полулюкс 3-х местный с балконом</a></div>
+									<div class="booking_link"><a href="booking_3.php">Полулюкс 3-х местный с балконом</a></div>
 								</div>
 
 								<!-- Slide -->
@@ -421,7 +421,7 @@
 
 									<div class="booking_overlay trans_200"></div>
 									<div class="booking_price">от 1700 руб</div>
-									<div class="booking_link"><a href="booking_4.html">Полулюкс 4-х местный с балконом</a></div>
+									<div class="booking_link"><a href="booking_4.php">Полулюкс 4-х местный с балконом</a></div>
 								</div>
 
 							</div>

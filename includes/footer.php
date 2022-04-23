@@ -90,13 +90,13 @@
                     <div class="newsletter_container">
                         <ul class="footer__room">
                             <li>
-                                <a href="booking_2.html">Полулюкс 2-х местный</a>
+                                <a href="booking_2.php">Полулюкс 2-х местный</a>
                             </li>
                             <li>
-                                <a href="booking_3.html">Полулюкс 3-х местный</a>
+                                <a href="booking_3.php">Полулюкс 3-х местный</a>
                             </li>
                             <li>
-                                <a href="booking_4.html">Полулюкс 4-х местный</a>
+                                <a href="booking_4.php">Полулюкс 4-х местный</a>
                             </li>
                         </ul>
                     </div>
