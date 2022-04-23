@@ -119,10 +119,6 @@ p a:hover::after
 	background: rgba(255,163,123,1);
 	color: #ffffff;
 }
-p::selection
-{
-	
-}
 h1{font-size: 48px;}
 h2{font-size: 36px;}
 h3{font-size: 24px;}
@@ -137,15 +133,6 @@ h1, h2, h3, h4, h5, h6
 	line-height: 1.2;
 	color: #393939;
 	font-weight: 600;
-}
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
-h6::selection
-{
-	
 }
 img
 {
@@ -628,10 +615,6 @@ section
 	left: 0;
 	width: 100%;
 }
-.home_content
-{
-
-}
 .home_title
 {
 	font-size: 72px;
@@ -680,10 +663,6 @@ section
 .booking_input_container > div:nth-child(4)
 {
 	width: 17.39130434782609%;
-}
-.booking_input_a
-{
-	
 }
 .booking_input_b
 {
