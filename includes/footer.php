@@ -69,9 +69,10 @@
                 <div class="col-lg-3">
                     <div class="footer_title">Мы Вам перезвоним</div>
                     <div class="newsletter_container">
-                        <form action="" class="newsletter_form" id="newsletter_form">
+                        <form action="" method="post" class="newsletter_form" id="newsletter_form">
                             <input type="text" class="newsletter_input" placeholder="Ваш телефон" required="required" name="phone">
                             <button class="newsletter_button" name="submit_wait_call">Жду звонка</button>
+                            <!-- <input type="submit" value="Жду звонка" class="newsletter_button"> -->
                         </form>
                     </div>
                 </div>

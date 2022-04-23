@@ -7,6 +7,6 @@ $message = 'Перезвоните мне по этому номеру - '.$phon
 
 // Отправляем если кнопка нажата
 if(isset($data['submit_wait_call'])) {
-  mail('surha_dag@mail.ru', 'Заявка с сайта Hotel-Legenda.ru', $message);
+  mail('hotellegenda123@mail.ru', 'Заявка с сайта Hotel-Legenda.ru', $message);
 }
 ?>
